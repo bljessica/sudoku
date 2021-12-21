@@ -140,7 +140,6 @@ export default class Sudoku {
   }
 
   checkResult() {
-    console.log(this.digits)
     const board = this.digits
     //   检查每一行
     for (let arr of board) {            
@@ -195,7 +194,7 @@ export default class Sudoku {
             }
         }
     }
-}
+  }
 
 	randNine() {
 		const nine = this.nine();
